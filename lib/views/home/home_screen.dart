@@ -28,7 +28,7 @@ class HomeScreen extends StatelessWidget {
               onPressed: () {
                 // Get.to(() => const OrderedProductScreen());
               },
-              icon: const Icon(Icons.card_travel)),
+              icon: const Icon(Icons.sort)),
         ],
       ),
       body: Obx(() => fetchProductsController.isLoading.value

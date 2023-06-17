@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:pioneer_alpha/views/home/home_screen.dart';
+import 'package:pioneer_alpha/views/landing_screen.dart';
 
 import 'controllers/init_controller.dart';
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: HomeScreen(),
+      home: LandingScreen(),
     );
   }
 }
