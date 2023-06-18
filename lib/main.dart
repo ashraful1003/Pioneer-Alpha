@@ -7,10 +7,10 @@ import 'package:pioneer_alpha/views/landing_screen.dart';
 
 import 'controllers/init_controller.dart';
 
-void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
-  FirebaseDatabase.instance.setPersistenceEnabled(true);
+void main() {
+  // WidgetsFlutterBinding.ensureInitialized();
+  // await Firebase.initializeApp();
+  // FirebaseDatabase.instance.setPersistenceEnabled(true);
   runApp(const MyApp());
 }
 
