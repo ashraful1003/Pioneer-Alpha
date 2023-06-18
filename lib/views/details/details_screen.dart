@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../../controllers/shopping_controller.dart';
 import '../../models/products_model.dart';
 import '../utils/constants.dart';
 import 'add_cart.dart';
@@ -13,7 +14,7 @@ class DetailsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // ShoppingController shoppingController = Get.find();
+    ShoppingController shoppingController = Get.find();
 
     return Scaffold(
       appBar: AppBar(

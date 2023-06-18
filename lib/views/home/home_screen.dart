@@ -18,19 +18,18 @@ class HomeScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: backgroundColor,
-        elevation: 0,
-        centerTitle: false,
-        title: const Text('Home'),
-        actions: [
-          /// this will show your ordered items
-          IconButton(
-              onPressed: () {
-                // Get.to(() => const OrderedProductScreen());
-              },
-              icon: const Icon(Icons.sort)),
-        ],
-      ),
+          backgroundColor: backgroundColor,
+          elevation: 0,
+          centerTitle: false,
+          title: const Text('Home'),
+          actions: [
+            /// this will show your ordered items
+            IconButton(
+                onPressed: () {
+                  // Get.to(() => const OrderedProductScreen());
+                },
+                icon: const Icon(Icons.sort)),
+          ]),
       body: Obx(() => fetchProductsController.isLoading.value
           ? Column(
               children: [

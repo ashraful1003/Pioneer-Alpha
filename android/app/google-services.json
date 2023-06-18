@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "782474943941",
+    "project_id": "pioneer-alpha-2a239",
+    "storage_bucket": "pioneer-alpha-2a239.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782474943941:android:b859689e15c7d76aa9ffac",
+        "android_client_info": {
+          "package_name": "ashraful.alam.pioneer_alpha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782474943941-2gljbuoee4cg88n4csd3gk3kcjdr5q24.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ashraful.alam.pioneer_alpha",
+            "certificate_hash": "f14c2d6a87f0d608bd4085d33313bf22758c2af2"
+          }
+        },
+        {
+          "client_id": "782474943941-704mv8318cftpdvf0vh67feuvd4de66p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOFWhULv75MGEt0RXom22gVZx4MoR6RC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "782474943941-704mv8318cftpdvf0vh67feuvd4de66p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
